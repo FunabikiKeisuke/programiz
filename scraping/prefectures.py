@@ -50,5 +50,5 @@ for data1 in datas1:
     se = pd.Series([prefecture, capital, population, local_specialty, area], columns)
     df = df.append(se, columns)
 
-filename = "prefecture.csv"
+filename = "prefectures.csv"
 df.to_csv(filename, encoding='utf-8-sig', index=None)
